@@ -14,7 +14,8 @@ class Testes(unittest.TestCase):
   def teste_subtracao_negativo(self):
     calculadora= Calculadora()
     self.assertEqual(-2,calculadora.subtracao(3,5))
-    def teste_divisao(self):
+  
+  def teste_divisao(self):
     calculadora= Calculadora()
     self.assertEqual(5,calculadora.divisao(15,3))
   

@@ -5,4 +5,4 @@ class Testes(unittest.TestCase):
 
   def teste(self):
     calculadora= Calculadora()
-    self.assertEqual(10,calculator.adicao(5,5))
+    self.assertEqual(10,calculadora.adicao(5,5))

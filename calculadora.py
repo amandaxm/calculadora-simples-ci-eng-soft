@@ -34,3 +34,6 @@ class Calculadora:
   
   def raiz_quadrada(self, x):
     return math.pow(x, 1/2)
+
+  def pow(self, x,y):
+    return math.pow(x, y)

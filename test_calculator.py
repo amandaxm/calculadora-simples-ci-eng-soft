@@ -49,4 +49,8 @@ class Testes(unittest.TestCase):
   
   def teste_raiz_quadrada(self):
     calculadora = Calculadora()
-    self.assertEqual(4,calculadora.raiz_quadrada(16))  
+    self.assertEqual(4,calculadora.raiz_quadrada(16)) 
+  
+  def teste_pow(self):
+    calculadora = Calculadora()
+    self.assertEqual(4,calculadora.pow(2,2))  

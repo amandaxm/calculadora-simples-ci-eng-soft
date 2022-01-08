@@ -1,3 +1,4 @@
+import math
 class Calculadora:
 
   def adicao(self, x, y):
@@ -30,4 +31,6 @@ class Calculadora:
       return(x)
     else :
        return(y)      
-    
+  
+  def raiz_quadrada(self, x):
+    return math.pow(x, 1/2)

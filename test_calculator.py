@@ -46,3 +46,7 @@ class Testes(unittest.TestCase):
   def teste_menor_numeros_iguais(self):
     calculadora = Calculadora()
     self.assertEqual("iguais",calculadora.menor(140,140))
+  
+  def teste_raiz_quadrada(self):
+    calculadora = Calculadora()
+    self.assertEqual(4,calculadora.raiz_quadrada(16))  

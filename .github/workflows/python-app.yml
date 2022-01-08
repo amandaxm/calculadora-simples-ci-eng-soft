@@ -10,7 +10,7 @@ on:
     branches: [ master ]
 
 jobs:
-  build_ubuntu: 
+  build: 
 
     runs-on: ${{ matrix.os }}
     strategy:

@@ -14,5 +14,20 @@ class Calculadora:
   
   def multiplicacao(self, x, y):
      return(x*y)
-      
+
+  def maior(self, x, y):
+    if(x==y):
+      return("iguais")
+    if(x > y):
+       return(x)
+    else:
+       return(y)
+
+  def menor(self, x, y):
+    if(x==y):
+       return("iguais")
+    if(x<y):
+      return(x)
+    else :
+       return(y)      
     

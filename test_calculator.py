@@ -30,3 +30,19 @@ class Testes(unittest.TestCase):
   def teste_multiplicacao_zero(self):
     calculadora= Calculadora()
     self.assertEqual(0,calculadora.multiplicacao(0,10))
+
+  def teste_maior(self):
+    calculadora = Calculadora()
+    self.assertEqual(150,calculadora.maior(140,150))
+  
+  def teste_maior_numeros_iguais(self):
+    calculadora = Calculadora()
+    self.assertEqual("iguais",calculadora.maior(150,150))
+  
+  def teste_menor(self):
+    calculadora = Calculadora()
+    self.assertEqual(140,calculadora.menor(140,150))
+  
+  def teste_menor_numeros_iguais(self):
+    calculadora = Calculadora()
+    self.assertEqual("iguais",calculadora.menor(140,140))
